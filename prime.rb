@@ -5,7 +5,6 @@ def prime?(integer)
   end
   while i < integer/2 + 1 do 
     if integer%i == 0
-      p i
       return false 
     else 
       i += 1 
@@ -14,6 +13,5 @@ def prime?(integer)
   return true 
 end
 
-p prime?(4)
   
   # Add  code here!
