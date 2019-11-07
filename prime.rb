@@ -14,6 +14,6 @@ def prime?(integer)
   return true 
 end
 
-p prime?(10)
+p prime?(4)
   
   # Add  code here!
